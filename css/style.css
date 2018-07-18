@@ -47,28 +47,36 @@ body{
 }
 .navbar-default .navbar-brand {
     /*color: #141A23;*/
-    color: #39A1E1;
+    color: #000000;
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 2px;
 }
 .navbar-default .navbar-brand:hover {
-    color: #000000;
+    color: #CC0000;
     background-color: transparent;
 }
 .navbar-default .navbar-default-in .navbar-nav li a {
-    color: #39A1E1;
+    /*color: #39A1E1;*/
     font-size: 20px;
+    font-weight: 600;
+    color: #000000;
     letter-spacing: 2px;
 }
 .navbar-default .navbar-default-in .navbar-nav li a:hover {
-    color: #000000;
+    /*color: #000000;*/
+    color: #CC0000;
 }
 .navbar-background{
-	background: #ffffff; 
+	/*background: #ffffff; */
 	border-bottom: 4px solid #39A1E1;
     /* For browsers that do not support gradients */
     /*background: linear-gradient(to right, rgba(22,107,234,0.05), rgba(40,116,240,0.1)); */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2989d8+50,207cca+72,39a1e1+93,39a1e1+93,7db9e8+100&0+11,0.82+36,1+76 */
+	background: -moz-linear-gradient(left, rgba(41,137,216,0) 11%, rgba(41,137,216,0.82) 36%, rgba(41,137,216,0.88) 50%, rgba(32,124,202,0.98) 72%, rgba(37,131,206,1) 76%, rgba(57,161,225,1) 93%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(41,137,216,0) 11%,rgba(41,137,216,0.82) 36%,rgba(41,137,216,0.88) 50%,rgba(32,124,202,0.98) 72%,rgba(37,131,206,1) 76%,rgba(57,161,225,1) 93%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(41,137,216,0) 11%,rgba(41,137,216,0.82) 36%,rgba(41,137,216,0.88) 50%,rgba(32,124,202,0.98) 72%,rgba(37,131,206,1) 76%,rgba(57,161,225,1) 93%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002989d8', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
 }
 .active{
 	/*color: #39A1E1;*/
@@ -163,8 +171,6 @@ body{
 .about-text{
 	color: #000000;
 }
-
-
 /******************courses**************************/
 .courses-heading{
 	/*background-color: #1A1A1A; */
@@ -190,13 +196,19 @@ body{
 	padding: 2%;
 	/*border-radius: 10px 10px 0 0;*/
 	color: #ffffff;
+	/*color: #39A1E1;*/
 	background-color: #39A1E1;
+	background-color: #00C2FF;
+	/*background-color: #ffffff;*/
+	font-family: 'Shrikhand', cursive;
+	/*font-weight: 200;*/
 }
 .courses-box{
 	margin: 2%;
 	/*padding: 2%;*/
 	/*min-width: 40%;*/
 	background-color: #2F75BD;
+	/*background-color: #282D32;*/
 	/*border-radius: 10px;*/
 }
 .courses-img{
@@ -423,14 +435,7 @@ body{
 	text-align: center;
 	border:solid 2px;
 }
-.overlay-bg {
-    background: rgba(50, 146, 166, 0.5);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-	height: 100%; 
-}
+
 .open-time{
 	border-bottom: solid 1px;
 }
@@ -457,6 +462,16 @@ body{
     background: inherit;
     border: solid 2px #ffffff;
     color: black;
+}
+@media(min-width: 600px){
+	.overlay-bg {
+	    background: rgba(50, 146, 166, 0.5);
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+		height: 100%; 
+	}
 }
 /*****************footer*******************/
 .my-footer{
